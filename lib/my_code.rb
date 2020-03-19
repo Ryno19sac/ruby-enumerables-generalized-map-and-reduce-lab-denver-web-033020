@@ -2,5 +2,6 @@ def map(x)
   new[]
   i = 0 
   while i < x.length do
-    new.pushyield(x[i])
+    new.push(yield(x[i]))
+    i += 1
 
