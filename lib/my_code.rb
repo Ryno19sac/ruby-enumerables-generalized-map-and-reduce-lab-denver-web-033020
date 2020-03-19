@@ -5,6 +5,6 @@ def map(x)
     new.push(yield(x[i]))
     i += 1 
   end
-  return new
+  new
 end
 
