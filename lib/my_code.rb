@@ -1,5 +1,5 @@
 def map(array)
-  new[]
+  new = []
   i = 0 
   while i < x.length
     new.push(yield(array[i]))
