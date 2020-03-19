@@ -3,5 +3,8 @@ def map(x)
   i = 0 
   while i < x.length do
     new.push(yield(x[i]))
-    i += 1
+    i += 1 
+  end
+  return
+end
 
